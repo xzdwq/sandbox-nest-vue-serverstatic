@@ -21,8 +21,8 @@
 4. Скопировать в `nest-serverstatic-build` файл `package.json` из корня проекта  
 5. `cd nest-serverstatic-build`  
 6. Создаем внутри папки `nest-serverstatic-build` папку `build` (т.к. nest читает статику оттуда)  
-7. Перемещаем папку `static` во вновб созданную папку `build` (вырезаем и вставляем)  
-8. Из корня `nest-serverstatic-build` запускаем `npm install --only=prod`  
+7. Перемещаем папку `static` во вновь созданную папку `build` (вырезаем и вставляем)  
+8. Из корня `nest-serverstatic-build` запускаем `npm i --only=prod`  
 9. Из корня `nest-serverstatic-build` запускаем команду `node src\main`  
 
 
@@ -37,6 +37,6 @@ nest-serverstatic-build/
     client/             # Вспомогательная папка от TS
     node_modules/
     src/                # Сервер Nest.js
-      main.js           # Файл запуска сервере на Nest.js
+      main.js           # Файл запуска сервера на Nest.js
       ...
 ```
